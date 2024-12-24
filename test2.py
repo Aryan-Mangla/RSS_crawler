@@ -5,7 +5,7 @@ import json
 
 # Define the RSS feed URL and the number of articles to fetch
 rss_feed_url = "https://feeds.feedburner.com/ndtvnews-latest"
-article_limit = 100  # Change this value to fetch more or fewer articles
+article_limit = 1000  # Change this value to fetch more or fewer articles
 
 # Fetch the RSS feed with SSL verification using certifi
 response = requests.get(rss_feed_url, verify=certifi.where())
